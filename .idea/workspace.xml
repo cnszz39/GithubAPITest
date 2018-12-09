@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6175fe1b-e7d9-4c72-9b8b-f233ba70c0f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GithubAPITest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/services/GithubLoader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/services/GithubLoader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/GithubAPI.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/License.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/License.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Owner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Repository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/SearchResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/SearchResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/AddCookiesInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/AddCookiesInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/CacheInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/CacheInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/CacheNetworkInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/CacheNetworkInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/GithubLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/GithubLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/IGithubBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/IGithubBiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/RetrofitServiceManager$Companion$SingletonHolder$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/RetrofitServiceManager$Companion$SingletonHolder$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/RetrofitServiceManager$Companion$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/RetrofitServiceManager$Companion$SingletonHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/RetrofitServiceManager$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/RetrofitServiceManager$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/RetrofitServiceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/RetrofitServiceManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/HttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/HttpUtil.class" afterDir="false" />
-    </list>
+    <list default="true" id="6175fe1b-e7d9-4c72-9b8b-f233ba70c0f9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/services/IGithubBiz.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="273">
               <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
             </state>
           </provider>
@@ -76,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/HttpUtil.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="609">
               <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
             </state>
           </provider>
@@ -92,7 +70,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -147,37 +125,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="GithubAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GithubAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GithubAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GithubAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GithubAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GithubAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GithubAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GithubAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="GithubAPITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GithubAPITest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,11 +227,12 @@
       <workItem from="1544107156306" duration="96000" />
       <workItem from="1544107299189" duration="90000" />
       <workItem from="1544352162444" duration="8725000" />
+      <workItem from="1544365709266" duration="606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15061000" />
+    <option name="totallyTimeSpent" value="15667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,8 +245,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -295,7 +257,7 @@
       <window_info id="Learn" order="7" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31960997" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31960997" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +431,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/services/IGithubBiz.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="273">
           <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
         </state>
       </provider>
@@ -483,7 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/util/HttpUtil.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
+        <state relative-caret-position="609">
           <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
