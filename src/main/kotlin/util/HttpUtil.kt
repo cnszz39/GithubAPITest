@@ -7,7 +7,7 @@ class HttpUtil {
     fun <T> getResult(clazz:Class<T>,observable: Observable<T>) : T {
         val c = Class.forName(clazz.name)
 
-        var result:T =c.newInstance() as T
+        var result = c.getDeclaredConstructor().newInstance() as T
         observable.subscribe(
                 {
                     result = it
