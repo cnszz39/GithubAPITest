@@ -16,7 +16,7 @@ interface IGithubBiz {
      * @return 検索結果
      */
     @GET("/search/repositories")
-    fun searchRepositories(@Query("q") searchWord:String):Observable<SearchResult>
+    fun searchRepositories(@Query("q") searchWord: String): Observable<SearchResult>
 
     /**
      * ユーザーネームで該当ユーザーの詳細情報を取得する
@@ -25,6 +25,16 @@ interface IGithubBiz {
      * @return ユーザーインフォ
      */
     @GET("/users/{username}")
-    fun getUser(@Path("username") username: String) : Observable<User>
+    fun getUser(@Path("username") username: String): Observable<User>
 
+    /**
+     * 端末で認証したのユーザーの情報を取得する
+     *
+     * @return ユーザーインフォ
+     */
+    @GET("/user")
+    fun getAuthenticatedUser(): Observable<User>
+
+
+    fun updateAuthenticatedUser():Observable<User>
 }

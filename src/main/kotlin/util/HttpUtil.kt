@@ -13,23 +13,8 @@ class HttpUtil {
                     result = it
                 },
                 {
-                    it.printStackTrace()
+                    print(it.message)
                 })
         return result
     }
-
-    fun <T> getResult(clazz:Class<T>,observable: Observable<MutableList<T>>) : MutableList<T> {
-        val c = Class.forName(clazz.name)
-
-        var result:MutableList<T> = mutableListOf()
-        observable.subscribe(
-                {
-                    result = it
-                },
-                {
-                    it.printStackTrace()
-                })
-        return result
-    }
-
 }

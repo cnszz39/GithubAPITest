@@ -21,8 +21,27 @@ class GithubLoader {
 //        return HttpUtil().getResult(Repository::class.java,mService.searchRepositories(searchWord))
 //    }
 
+    /**
+     * ユーザーネームで該当ユーザーの詳細情報を取得する
+     *
+     * @param username ユーザーネーム
+     * @return ユーザーインフォ
+     */
     fun getUser(username: String): User {
         return HttpUtil().getResult(User::class.java, mService.getUser(username))
     }
 
+    /**
+     * 端末で認証したのユーザーの情報を取得する
+     *
+     * @return ユーザーインフォ
+     */
+    fun getAuthenticatedUser() : User {
+        return HttpUtil().getResult(User::class.java, mService.getAuthenticatedUser())
+    }
+
+    fun updateAuthenticatedUser():User {
+
+        return HttpUtil().getResult(User::class.java, mService.getAuthenticatedUser())
+    }
 }
