@@ -1,5 +1,9 @@
 package services
 
+import interceptor.AddCookiesInterceptor
+import interceptor.CacheInterceptor
+import interceptor.CacheNetworkInterceptor
+import interceptor.CommonInterceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -24,15 +28,24 @@ class RetrofitServiceManager {
 
     init {
         val builder = OkHttpClient.Builder()
+        // 接続および読み込みタイムアウトを設置する
         builder.connectTimeout(DEFAULT_TIME_OUT, TimeUnit.SECONDS)
         builder.readTimeout(DEFAULT_READ_TIME_OUT, TimeUnit.SECONDS)
 
+        // ログを出力するために、ロギングインターセプターを追加する
         val logger = HttpLoggingInterceptor()
+        // ログ出力レベルをBASICと設置する
         logger.level = HttpLoggingInterceptor.Level.BASIC
+        // ビルダにインターセプターを追加する
         builder.addInterceptor(logger)
 
-        builder.addInterceptor(AddCookiesInterceptor())
+        builder
+                // クッキーを処理するために、インターセプターを追加する
+                .addInterceptor(AddCookiesInterceptor())
+                // キャッシュを処理するために、インターセプターを追加する
                 .addInterceptor(CacheInterceptor())
+                // 固有パラメータを設置するために、インターセプターを追加する
+                .addInterceptor(CommonInterceptor())
                 .addNetworkInterceptor(CacheNetworkInterceptor())
 
         retrofit = Retrofit.Builder()
@@ -40,6 +53,7 @@ class RetrofitServiceManager {
                 .client(builder.build())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
+
                 .build()
     }
 

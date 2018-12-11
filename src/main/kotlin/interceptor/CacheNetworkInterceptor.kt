@@ -1,4 +1,4 @@
-package services
+package interceptor
 
 import okhttp3.CacheControl
 import okhttp3.Interceptor
